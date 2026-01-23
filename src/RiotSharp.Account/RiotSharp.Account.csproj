@@ -24,8 +24,8 @@
 		<None Include="README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 	
-  <ItemGroup>
-	  <ProjectReference Include="..\RiotSharp.Core\RiotSharp.Core.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="AV.RiotSharp.Core" Version="0.1.2" />
+	</ItemGroup>
 
 </Project>
